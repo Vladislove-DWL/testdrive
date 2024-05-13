@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список литературы</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="title">Оформление списка литературы</h1>
+    </header>
+
+    <div class="description">
+        <p>
+            Это интуитивно понятный и легко используемый инструмент, который поможет студентам
+            автоматически создавать форматированный <strong>список литературы</strong>, освободив их от рутины
+            и позволив им сосредоточиться на <strong>содержании</strong> своих учебных работ!
+        </p>
+
+    </div>
+
+    <div class="sourceSelection">
+        <form>
+            <select id="source">
+              <option value="oneAuthor">книги одного автора</option>
+              <option value="twoAuthor">книги двух авторов</option>
+            </select>
+          </form>
+    </div>
+
+    
+    <div class="card">
+        <form>
+            <h3>Фамилия автора:</h3>
+            <input class="lastname" type="text" placeholder="Пушкин">
+            
+            <h3>Инициалы автора:</h3>
+            <input class="firstname" type="text" placeholder="А. С.">
+            
+            <h3>Название книги:</h3>
+            <input class="nameOfBook" type="text" placeholder="Медный всадник">
+            
+            <h3>Город издательства:</h3>
+            <input class="nameOfCity" type="text" placeholder="Москва">
+            
+            <h3>Название издательства:</h3>
+            <input class="nameOfPublisher" type="text" placeholder="Просвещение">
+            
+            <h3>Год издания:</h3>
+            <input class="yearOfPublishing" type="text" placeholder="1995">
+           
+            <h3>Количество страниц:</h3>
+            <input class="numberOfPage" type="text" placeholder=" 255">     
+        </form>
+    </div>
+
+    <button class="btnGenerate">Сгенировать</button>
+
+ 
+    <div class="result">
+        <h2>Результат</h2>
+        <textarea class="userResult"></textarea>
+    </div>
+
+    <button class="btnReset">Сбросить</button>
+
+    <footer class="footer">
+
+        <a href="https://github.com/Vladislove-DWL" target="_blank">
+            <img src="./public/images/gh.png" alt="gh">
+            GH
+        </a>
+        
+        
+        <a href="https://vk.com/vvvladislovvve" target="_blank">
+            <img src="./public/images/vk.png" alt="vk">
+            TG
+        </a>
+        
+        <a href="https://vk.com/vvvladislovvve" target="_blank">
+            <img src="./public/images/tg.png" alt="tg">
+            VK
+        </a>
+        
+       
+    </footer>
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
